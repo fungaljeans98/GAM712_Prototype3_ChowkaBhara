@@ -1,0 +1,23 @@
+===Instructions to Play===
+A game based on reincarnation, or more specifically, the Hindu philosophies around reincarnation.
+
+This is a mobile game that makes use of touch controls, gyroscopes and vibrations.
+
+===Instructions to Export Game=== 
+Since this is a Mobile game, I'm including a link to the Unity Project folder, which needs to be decompressed and compiled to the phone you are using (so sorry in advance).
+
+https://1drv.ms/f/s!AoOXW81ELavMk4sr9ejB2F9DGbmNwg?e=iG87x6
+
+To export the game to iPhone, you can follow these instructions, or use this tutorial that I've been using -- https://youtu.be/-Hr4-XNCf8Y?si=ayjt6Vq-iW98W4q1
+
+1. Decompress the Unity package file.
+2. Open the project on Unity.
+3. Press cmd+shift+B to build the project.
+4. Make sure 'development build' is checked, and make sure the minimum iOS API is set to iOS 14.
+5. Hit 'Build and Run’.
+6. (Optional) This should open Xcode, but in case Unity throws 'SDK missing' errors, open Xcode, press cmd + ',' to get to Xcode settings, go to the Locations tab and set command line tools to the latest version of Xcode. Restart Xcode and Unity if required.
+7. Once the project opens on Xcode, it should give an error related to signing and capabilities. Click on the error, make sure 'Automatically manage signing' is checked, and sign in to your Apple ID. 
+8. Make sure there is no '-blank' at the end of the bundle identifier.
+9. Hit the play button while connected to your iPhone to export and install the app to your iPhone.
+
+(Sorry again)
